@@ -1626,7 +1626,7 @@ body {
     .titulo-movil {
         display: block;
         position: fixed;
-        top: 130px;
+        top: 160px;
         left: 50%;
         transform: translateX(-50%);
 
