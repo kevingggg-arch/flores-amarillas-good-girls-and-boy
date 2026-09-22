@@ -1599,3 +1599,22 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+#botonMusica {
+    display: block !important;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 99999;
+
+    background: #fce700;
+    color: #000;
+    border: none;
+    border-radius: 25px;
+
+    padding: 10px 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    cursor: pointer;
+}
