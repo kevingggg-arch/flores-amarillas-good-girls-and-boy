@@ -1,10 +1,6 @@
 window.onload = () => {
     document.body.classList.remove("container");
 
-    setTimeout(() => {
-        document.querySelector(".mensaje").classList.add("mostrar");
-    }, 6000);
-
     const musica = document.getElementById("musica");
     const boton = document.getElementById("botonMusica");
 
@@ -15,7 +11,7 @@ window.onload = () => {
     }).catch(() => {
         boton.style.display = "block";
     });
-
+    
     boton.addEventListener("click", () => {
         musica.play();
         boton.style.display = "none";
